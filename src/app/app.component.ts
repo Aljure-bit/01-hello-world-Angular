@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+  //En este caso, mandaremos dos variables a nuestro html para que se muestren
+  nombre: string = "Fernando"; 
+  apellido: string = "Hernandez";
+
 }
